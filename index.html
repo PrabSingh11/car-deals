@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Deals</title>
+<style>
+  :root { color-scheme: light dark; --bg:#0f1115; --card:#171a21; --line:#2a2f3a;
+    --txt:#e8eaed; --mut:#9aa3b2; --hero:#4ade80; --accent:#60a5fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--txt); }
+  header { padding:28px 20px 12px; max-width:1100px; margin:0 auto; }
+  h1 { margin:0 0 4px; font-size:26px; }
+  .sub { color:var(--mut); font-size:14px; }
+  .wrap { max-width:1100px; margin:0 auto; padding:12px 20px 60px; }
+  .controls { margin:10px 0 16px; }
+  input[type=search] { width:100%; max-width:340px; padding:10px 12px; border-radius:10px;
+    border:1px solid var(--line); background:var(--card); color:var(--txt); font-size:15px; }
+  table { width:100%; border-collapse:collapse; background:var(--card);
+    border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+  th,td { padding:12px 14px; text-align:left; border-bottom:1px solid var(--line); }
+  th { font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--mut);
+    cursor:pointer; user-select:none; white-space:nowrap; }
+  th:hover { color:var(--txt); }
+  tbody tr:hover { background:rgba(255,255,255,.03); }
+  td.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  td.hero { color:var(--hero); font-weight:700; }
+  td.spec { color:var(--mut); font-size:14px; max-width:260px; }
+  a { color:var(--accent); }
+  @media (max-width:760px) {
+    table,thead,tbody,th,td,tr { display:block; }
+    thead { display:none; }
+    tr { margin-bottom:12px; border:1px solid var(--line); border-radius:10px; }
+    td { display:flex; justify-content:space-between; gap:12px; border:none;
+      border-bottom:1px solid var(--line); }
+    td:last-child { border-bottom:none; }
+    td::before { content:attr(data-label); color:var(--mut); font-size:13px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🚗 Car Deals</h1>
+  <div class="sub">Lease &amp; finance deals pulled from car TikToks &amp; transcribed automatically · 10 deals · updated 05 Nov 2026, 20:42 UTC</div>
+</header>
+<div class="wrap">
+  <div class="controls"><input type="search" id="q" placeholder="Filter by brand, model, type…"></div>
+  <table id="t">
+    <thead><tr>
+      <th>Car</th><th>Type</th><th>New price</th><th>Monthly</th><th>Deposit</th>
+      <th>Term</th><th>Spec</th><th>Available</th><th>Source</th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td data-label="Car">BMW M4 G82</td>
+        <td data-label="Type">coupe</td>
+        <td data-label="New price" class="num">£100,000</td>
+        <td data-label="Monthly" class="num hero">£550</td>
+        <td data-label="Deposit" class="num">£6,700</td>
+        <td data-label="Term">48 mo</td>
+        <td data-label="Spec" class="spec">Personal lease including warranty and road tax, 6,000 miles per year</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704002515456773398" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">BMW 2 Series 220i M Sport Coupe</td>
+        <td data-label="Type">coupe</td>
+        <td data-label="New price" class="num">£45,000</td>
+        <td data-label="Monthly" class="num hero">£270</td>
+        <td data-label="Deposit" class="num">£3,200</td>
+        <td data-label="Term">48 mo</td>
+        <td data-label="Spec" class="spec">iDrive 8, heated seats, adaptive cruise control, M Sport trim</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704027231147789590" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">Mercedes V-Class AMG line premium</td>
+        <td data-label="Type">—</td>
+        <td data-label="New price" class="num">£70,000</td>
+        <td data-label="Monthly" class="num hero">£399</td>
+        <td data-label="Deposit" class="num">£4,000</td>
+        <td data-label="Term">—</td>
+        <td data-label="Spec" class="spec">2.8D, warranty and road tax included</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704058320516058390" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">Audi Q6 Walls Pro</td>
+        <td data-label="Type">sportback</td>
+        <td data-label="New price" class="num">—</td>
+        <td data-label="Monthly" class="num hero">£420</td>
+        <td data-label="Deposit" class="num">—</td>
+        <td data-label="Term">18 mo</td>
+        <td data-label="Spec" class="spec">400-mile electric range, heated/cooled seats, head-up display, sunroof, premium sound system</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704256245133298966" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">Volkswagen Tera on Rline</td>
+        <td data-label="Type">SUV</td>
+        <td data-label="New price" class="num">—</td>
+        <td data-label="Monthly" class="num hero">£279</td>
+        <td data-label="Deposit" class="num">£3,200</td>
+        <td data-label="Term">24 mo</td>
+        <td data-label="Spec" class="spec">Heated steering wheel, heated seats, massage seats, ambient lighting, adaptive cruise control</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704292233603845398" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">BMW G90 M5</td>
+        <td data-label="Type">—</td>
+        <td data-label="New price" class="num">£120,000</td>
+        <td data-label="Monthly" class="num hero">£570</td>
+        <td data-label="Deposit" class="num">£7,000</td>
+        <td data-label="Term">36 mo</td>
+        <td data-label="Spec" class="spec">Warranty and road tax included, heated seats</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704390493605481750" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">BMW 120i mspo</td>
+        <td data-label="Type">—</td>
+        <td data-label="New price" class="num">—</td>
+        <td data-label="Monthly" class="num hero">£330</td>
+        <td data-label="Deposit" class="num">—</td>
+        <td data-label="Term">48 mo</td>
+        <td data-label="Spec" class="spec">8,000 miles per year</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704602510752812310" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">—</td>
+        <td data-label="Type">—</td>
+        <td data-label="New price" class="num">£50,000</td>
+        <td data-label="Monthly" class="num hero">£330</td>
+        <td data-label="Deposit" class="num">£3,500</td>
+        <td data-label="Term">—</td>
+        <td data-label="Spec" class="spec">Heated/cooled seats, head-up display, 0-60 in 3.5 seconds</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704655058251713814" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">Audi A3 Black Edition</td>
+        <td data-label="Type">—</td>
+        <td data-label="New price" class="num">£50,000</td>
+        <td data-label="Monthly" class="num hero">£250</td>
+        <td data-label="Deposit" class="num">£3,000</td>
+        <td data-label="Term">24 mo</td>
+        <td data-label="Spec" class="spec">Matrix LED headlights, heads-up display, heated seats, Sonos speakers, adaptive cruise, tech pack included</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704711932330216726" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+      <tr>
+        <td data-label="Car">emotive 5-night</td>
+        <td data-label="Type">SUV</td>
+        <td data-label="New price" class="num">£25,000</td>
+        <td data-label="Monthly" class="num hero">£175</td>
+        <td data-label="Deposit" class="num">£2,000</td>
+        <td data-label="Term">24 mo</td>
+        <td data-label="Spec" class="spec">Adaptive cruise control, Apple CarPlay, heated seats</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Source"><a href="https://www.tiktok.com/@the.car.market/video/7704740447754718486" target="_blank" rel="noopener">watch</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script>
+  const q=document.getElementById('q'),t=document.getElementById('t');
+  q.addEventListener('input',()=>{const v=q.value.toLowerCase();
+    t.tBodies[0].querySelectorAll('tr').forEach(r=>{
+      r.style.display=r.innerText.toLowerCase().includes(v)?'':'none';});});
+  // click a header to sort
+  t.querySelectorAll('th').forEach((th,i)=>{let asc=true;th.onclick=()=>{
+    const rows=[...t.tBodies[0].rows];
+    rows.sort((a,b)=>{const x=a.cells[i].innerText,y=b.cells[i].innerText;
+      const nx=parseFloat(x.replace(/[^0-9.]/g,'')),ny=parseFloat(y.replace(/[^0-9.]/g,''));
+      const both=!isNaN(nx)&&!isNaN(ny);
+      return (both?nx-ny:x.localeCompare(y))*(asc?1:-1);});
+    asc=!asc;rows.forEach(r=>t.tBodies[0].appendChild(r));};});
+</script>
+</body>
+</html>

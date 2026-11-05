@@ -1,0 +1,4 @@
+audio/
+cookies.txt
+*.log
+__pycache__/
