@@ -166,7 +166,7 @@ def build_html(deals):
 <body>
 <header>
   <h1>🚗 Car Deals</h1>
-  <div class="sub">Lease &amp; finance deals pulled from car TikToks &amp; transcribed automatically · {len(deals)} deals · updated {updated}</div>
+  <div class="sub">{len(deals)} deals · updated {updated}</div>
 </header>
 <div class="wrap">
   <div class="controls"><input type="search" id="q" placeholder="Filter by brand, model, type…"></div>
