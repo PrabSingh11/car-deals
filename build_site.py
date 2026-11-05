@@ -101,13 +101,22 @@ def gbp(v):
     return f"£{v:,}" if isinstance(v, int) else "—"
 
 
+def transcript_path(d):
+    m = re.search(r"@([\w.\-]+)/video/(\d+)", d.get("video") or "")
+    return f"transcripts/{m.group(1)}/{m.group(2)}.txt" if m else None
+
+
 def row_html(d):
     term = f"{d['term_months']} mo" if d.get("term_months") else "—"
     spec = (d.get("spec") or "").replace("<", "&lt;")
-    model = " ".join(x for x in [d.get("brand"), d.get("model")] if x) or "—"
-    link = f'<a href="{d["video"]}" target="_blank" rel="noopener">watch</a>' if d.get("video") else "—"
-    return f"""      <tr>
-        <td data-label="Car">{model}</td>
+    brand = d.get("brand") or "—"
+    model = d.get("model") or "—"
+    watch = f'<a href="{d["video"]}" target="_blank" rel="noopener">watch</a>' if d.get("video") else "—"
+    tp = transcript_path(d)
+    trans = f'<a class="btn" href="{tp}" target="_blank" rel="noopener">transcript</a>' if tp else "—"
+    return f"""      <tr data-brand="{brand}">
+        <td data-label="Brand">{brand}</td>
+        <td data-label="Model">{model}</td>
         <td data-label="Type">{d.get('body_type') or '—'}</td>
         <td data-label="New price" class="num">{gbp(d.get('price_new'))}</td>
         <td data-label="Monthly" class="num hero">{gbp(d.get('monthly_cost'))}</td>
@@ -115,13 +124,16 @@ def row_html(d):
         <td data-label="Term">{term}</td>
         <td data-label="Spec" class="spec">{spec}</td>
         <td data-label="Available">{d.get('available') or '—'}</td>
-        <td data-label="Source">{link}</td>
+        <td data-label="Video">{watch}</td>
+        <td data-label="Transcript">{trans}</td>
       </tr>"""
 
 
 def build_html(deals):
     updated = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
-    rows = "\n".join(row_html(d) for d in deals) or '<tr><td colspan="9">No deals yet.</td></tr>'
+    rows = "\n".join(row_html(d) for d in deals) or '<tr><td colspan="11">No deals yet.</td></tr>'
+    brands = sorted({d.get("brand") for d in deals if d.get("brand")})
+    brand_opts = "".join(f'<option value="{b}">{b}</option>' for b in brands)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -139,8 +151,14 @@ def build_html(deals):
   .sub {{ color:var(--mut); font-size:14px; }}
   .wrap {{ max-width:1100px; margin:0 auto; padding:12px 20px 60px; }}
   .controls {{ margin:10px 0 16px; }}
-  input[type=search] {{ width:100%; max-width:340px; padding:10px 12px; border-radius:10px;
+  .controls {{ display:flex; gap:10px; flex-wrap:wrap; }}
+  input[type=search], select {{ padding:10px 12px; border-radius:10px;
     border:1px solid var(--line); background:var(--card); color:var(--txt); font-size:15px; }}
+  input[type=search] {{ flex:1; min-width:200px; max-width:340px; }}
+  .btn {{ display:inline-block; padding:5px 10px; border:1px solid var(--line);
+    border-radius:8px; background:rgba(96,165,250,.12); text-decoration:none;
+    font-size:13px; white-space:nowrap; }}
+  .btn:hover {{ background:rgba(96,165,250,.22); }}
   table {{ width:100%; border-collapse:collapse; background:var(--card);
     border:1px solid var(--line); border-radius:12px; overflow:hidden; }}
   th,td {{ padding:12px 14px; text-align:left; border-bottom:1px solid var(--line); }}
@@ -154,7 +172,7 @@ def build_html(deals):
   a {{ color:var(--accent); }}
   .tablewrap {{ overflow-x:auto; -webkit-overflow-scrolling:touch;
     border:1px solid var(--line); border-radius:12px; }}
-  .tablewrap table {{ border:none; border-radius:0; min-width:720px; }}
+  .tablewrap table {{ border:none; border-radius:0; min-width:900px; }}
   @media (max-width:760px) {{
     th,td {{ padding:10px 11px; }}
     td.spec {{ font-size:13px; max-width:200px; }}
@@ -167,12 +185,15 @@ def build_html(deals):
   <div class="sub">{len(deals)} deals · updated {updated}</div>
 </header>
 <div class="wrap">
-  <div class="controls"><input type="search" id="q" placeholder="Filter by brand, model, type…"></div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search model, type, spec…">
+    <select id="brand"><option value="">All brands</option>{brand_opts}</select>
+  </div>
   <div class="tablewrap">
   <table id="t">
     <thead><tr>
-      <th>Car</th><th>Type</th><th>New price</th><th>Monthly</th><th>Deposit</th>
-      <th>Term</th><th>Spec</th><th>Available</th><th>Source</th>
+      <th>Brand</th><th>Model</th><th>Type</th><th>New price</th><th>Monthly</th><th>Deposit</th>
+      <th>Term</th><th>Spec</th><th>Available</th><th>Video</th><th>Transcript</th>
     </tr></thead>
     <tbody>
 {rows}
@@ -181,10 +202,14 @@ def build_html(deals):
   </div>
 </div>
 <script>
-  const q=document.getElementById('q'),t=document.getElementById('t');
-  q.addEventListener('input',()=>{{const v=q.value.toLowerCase();
+  const q=document.getElementById('q'),b=document.getElementById('brand'),t=document.getElementById('t');
+  function applyFilter(){{const v=q.value.toLowerCase(),br=b.value.toLowerCase();
     t.tBodies[0].querySelectorAll('tr').forEach(r=>{{
-      r.style.display=r.innerText.toLowerCase().includes(v)?'':'none';}});}});
+      const okText=r.innerText.toLowerCase().includes(v);
+      const okBrand=!br||(r.dataset.brand||'').toLowerCase()===br;
+      r.style.display=(okText&&okBrand)?'':'none';}});}}
+  q.addEventListener('input',applyFilter);
+  b.addEventListener('change',applyFilter);
   // click a header to sort
   t.querySelectorAll('th').forEach((th,i)=>{{let asc=true;th.onclick=()=>{{
     const rows=[...t.tBodies[0].rows];
