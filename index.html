@@ -28,24 +28,23 @@
   td.hero { color:var(--hero); font-weight:700; }
   td.spec { color:var(--mut); font-size:14px; max-width:260px; }
   a { color:var(--accent); }
+  .tablewrap { overflow-x:auto; -webkit-overflow-scrolling:touch;
+    border:1px solid var(--line); border-radius:12px; }
+  .tablewrap table { border:none; border-radius:0; min-width:720px; }
   @media (max-width:760px) {
-    table,thead,tbody,th,td,tr { display:block; }
-    thead { display:none; }
-    tr { margin-bottom:12px; border:1px solid var(--line); border-radius:10px; }
-    td { display:flex; justify-content:space-between; gap:12px; border:none;
-      border-bottom:1px solid var(--line); }
-    td:last-child { border-bottom:none; }
-    td::before { content:attr(data-label); color:var(--mut); font-size:13px; }
+    th,td { padding:10px 11px; }
+    td.spec { font-size:13px; max-width:200px; }
   }
 </style>
 </head>
 <body>
 <header>
   <h1>🚗 Car Deals</h1>
-  <div class="sub">10 deals · updated 05 Nov 2026, 20:42 UTC</div>
+  <div class="sub">10 deals · updated 05 Nov 2026, 21:13 UTC</div>
 </header>
 <div class="wrap">
   <div class="controls"><input type="search" id="q" placeholder="Filter by brand, model, type…"></div>
+  <div class="tablewrap">
   <table id="t">
     <thead><tr>
       <th>Car</th><th>Type</th><th>New price</th><th>Monthly</th><th>Deposit</th>
@@ -164,6 +163,7 @@
       </tr>
     </tbody>
   </table>
+  </div>
 </div>
 <script>
   const q=document.getElementById('q'),t=document.getElementById('t');
