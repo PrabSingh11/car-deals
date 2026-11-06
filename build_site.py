@@ -64,8 +64,34 @@ def num(v):
     return int(m.group(0).replace(",", "")) if m else None
 
 
+# Known car brands, lowercase. Display casing overrides for the odd ones.
+CAR_BRANDS = {
+    "audi", "bmw", "mercedes", "mercedes-benz", "volkswagen", "vw", "ford", "vauxhall",
+    "toyota", "honda", "nissan", "hyundai", "kia", "peugeot", "renault", "citroen",
+    "seat", "cupra", "skoda", "volvo", "mazda", "mini", "land rover", "range rover",
+    "jaguar", "porsche", "tesla", "lexus", "fiat", "jeep", "suzuki", "mitsubishi",
+    "dacia", "alfa romeo", "abarth", "ds", "genesis", "bentley", "maserati", "ferrari",
+    "lamborghini", "aston martin", "mclaren", "rolls-royce", "polestar", "byd", "mg",
+    "smart", "subaru", "chevrolet", "chrysler", "ineos",
+}
+BRAND_DISPLAY = {"bmw": "BMW", "vw": "Volkswagen", "mercedes-benz": "Mercedes",
+                 "mg": "MG", "ds": "DS", "byd": "BYD", "range rover": "Land Rover"}
+
+
+def normalize_brand(b):
+    """Return a canonical brand name, or None if it isn't a recognised car brand."""
+    if not b:
+        return None
+    bl = b.strip().lower()
+    for brand in sorted(CAR_BRANDS, key=len, reverse=True):
+        if re.search(rf"\b{re.escape(brand)}\b", bl):
+            return BRAND_DISPLAY.get(brand, brand.title())
+    return None
+
+
 def extract_deals():
     deals = []
+    dropped = 0
     for txt in sorted(TRANS.rglob("*.txt")):
         raw = txt.read_text(encoding="utf-8")
         header, body = parse_header(raw)
@@ -80,8 +106,16 @@ def extract_deals():
         if not isinstance(data, dict) or not data.get("is_deal"):
             print("  not a deal, skipped")
             continue
+        # quality gate: must be a recognised brand AND have a monthly cost,
+        # otherwise it's almost certainly a transcription slip, not a real deal.
+        brand = normalize_brand(data.get("brand"))
+        monthly = num(data.get("monthly_cost"))
+        if not brand or not monthly:
+            dropped += 1
+            print(f"  dropped (brand={data.get('brand')!r}, monthly={monthly})")
+            continue
         deals.append({
-            "brand": data.get("brand"),
+            "brand": brand,
             "model": data.get("model"),
             "body_type": data.get("body_type"),
             "price_new": num(data.get("price_new")),
@@ -94,6 +128,7 @@ def extract_deals():
             "video": header.get("video"),
         })
     deals.sort(key=lambda d: d.get("available") or "", reverse=True)
+    print(f"[extract] kept {len(deals)} deals, dropped {dropped} junk/empty rows")
     return deals
 
 

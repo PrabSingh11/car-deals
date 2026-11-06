@@ -91,19 +91,6 @@
     "video": "https://www.tiktok.com/@the.car.market/video/7704602510752812310"
   },
   {
-    "brand": null,
-    "model": null,
-    "body_type": null,
-    "price_new": 50000,
-    "monthly_cost": 330,
-    "deposit": null,
-    "term_months": null,
-    "spec": "Heated/cooled seats, HUD, 3.5s 0-60, 500+ BHP",
-    "available": "2026-11-05",
-    "creator": "@the.car.market",
-    "video": "https://www.tiktok.com/@the.car.market/video/7704655058251713814"
-  },
-  {
     "brand": "Audi",
     "model": "A3 Black Edition",
     "body_type": null,
@@ -115,18 +102,5 @@
     "available": "2026-11-05",
     "creator": "@the.car.market",
     "video": "https://www.tiktok.com/@the.car.market/video/7704711932330216726"
-  },
-  {
-    "brand": "Emotive",
-    "model": "5",
-    "body_type": "SUV",
-    "price_new": 25000,
-    "monthly_cost": 175,
-    "deposit": 2000,
-    "term_months": 24,
-    "spec": "Adaptive cruise control, Apple CarPlay, heated seats",
-    "available": "2026-11-05",
-    "creator": "@the.car.market",
-    "video": "https://www.tiktok.com/@the.car.market/video/7704740447754718486"
   }
 ]
