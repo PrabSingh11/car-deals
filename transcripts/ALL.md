@@ -1,3 +1,24 @@
+## @the.car.market — 7704965614628031766
+https://www.tiktok.com/@the.car.market/video/7704965614628031766 · 2026-11-07 07:31 UTC · via whisper
+
+An absolutely crazy deal from BYD, this is the brand new C-Lion 7, around £60,000 new, total spec X's model is now just £360,000 a month, that's on the power soullies, including warranty, road tax on a brand new 7-6 play. Over 500 break, it's got the heads of display, heat, cool seats, 360 camera, absolutely massive spec, be quick, share this video, send you an interested and hit that full button, the deal is not going to last long, around 3.6k down, it's on a 380s, here's how to inquire. So in order to get some more information, this is all you need to do, click the link in the Instagram, Alt-Six, Alt-Bio, scroll down, best for me, S-E release news, there it is, C-Lion 7, 367 a month, it's in stock, three years lease, mine it was, you can add more, it was 10 or 8000 mods, you're looking at about 380 a month, just fill in the contact details and press get my code for more information on the deal.
+
+---
+
+## @the.car.market — 7705095610650709270
+https://www.tiktok.com/@the.car.market/video/7705095610650709270 · 2026-11-07 07:31 UTC · via whisper
+
+Every now and again we get some low-brainer deals and this has got to be one of them. The brand new Say Out A Roader TopSpec FR nearly £30,000 new DSG gearbox. It's got the Adaptive Cruise Control Apple Carblade, reverse parking aid as well. And you can now get one from just £160 a month. Yes, that's right, £160 a month includes warranty, road tax on a 76 plate as well, and get this even with £8,000. You're looking at under £170 a month. This insane deal is not going to last long though, so be quick, share this video, it's anyone interested, and hit that follow button for more car decent deals, just like this one here. The deal is not going to last long. So here is how to actually get some more information and enquire on the deal, link in the Instagram, all the text I'll buy, currently the top link on the link tree, and issues accessing it, drop me a message, but if you deposit it for those asking, it's £2,000, you can see it just there. Two year lease mileage, you can have £8,171 a month, it's really nice and inexpensive, so you can have up to £20,000 miles, either fill in the contact details and press get my code for more information, any issues or questions, let me know, but be quick.
+
+---
+
+## @the.car.market — 7705118150857297154
+https://www.tiktok.com/@the.car.market/video/7705118150857297154 · 2026-11-07 07:30 UTC · via whisper
+
+Wow, an absolutely massive price drop on the brand new Golf GTI deal. This is usually around £45,000 new, now just £258 on the personal lease, which includes warranty, road tax on a brand new 7.6 plate. By far the cheapest, hard-haired leasing deal I think I've ever seen, so be quick, share this video to any of you who are interested and hit that follow button. You're looking at around £3.2k down on a 2.8 lease, here's how to get some more information. I mean even with £8,000 or £10,000 you can still get it for around £270 a month. So in order to get some more information on the lease, clean the link in the Instagram or TikTok bio, scroll down and it's under the best affordable car leasing deals. There it is. Any issues, access and the link drop me a message. This is now £258 a month as mentioned, so it's dropped quite a bit since release, as you can see £3.1k down as well, mileage wise, it's really nice and inexpensive to add mileage, but yeah, 2 years, 12 months of repayment, so yeah, £8.000 or £10,000 a month more, so add £8.000 or £10,000 a month, you just first get my code, fill in your £100 details and request to go for more information, be quick, we'll not last long.
+
+---
+
 ## @the.car.market — 7704002515456773398
 https://www.tiktok.com/@the.car.market/video/7704002515456773398 · 2026-11-05 20:22 UTC · via whisper
 
