@@ -1,3 +1,45 @@
+## @the.car.market — 7704787820170317078
+https://www.tiktok.com/@the.car.market/video/7704787820170317078 · 2026-11-08 07:33 UTC · via whisper
+
+Wow, an absolutely ridiculous deal from Mercedes, the brand new E-Class over-edition, usually £60,000 is now just £260 a month, this is on the business fees only, but insane price by far, I think the best business deal I think I've ever seen, I mean, a $60,000 new car for just $260 a month, warranty road tax included on a 76 plate as well, and even with $8,000 or $10,000 a year, you're looking at just $275 a month. Here's how to get some more information on the deal, but be quick, share this video to anyone interested and hit that follow button, the deal is not going to last long. So in order to get a free no-bligation quote, clear the link in the Instagram, or tick to a bio, scroll down, and it's under the best business deals, there it is, E-Class over-edition, once you're in the link, you can press the edit lease button, that's in the bottom left, you can change things at the lease term, the open payment and the mileage, so $264 a month, on a two-year lease, you can change it to $8,000 or $10,000 for about $270, again, business only, unfortunately, but you're just filling the content details, and press get my quote for more information, any issues or questions, let me know.
+
+---
+
+## @the.car.market — 7705361044268387606
+https://www.tiktok.com/@the.car.market/video/7705361044268387606 · 2026-11-08 07:32 UTC · via whisper
+
+our world deal this is from Audi the brand new Q6 e-tron this is the top stack force road heated cool seats being a sound system heads up display opening sundry for as well this is usually around 70,000 pound dude but you can now get one on a personal lease for just 440 pound a month that includes warranty road tax on a brand new 7 to 6 play his insane deal is not gonna last song so be quick share this video to anyone interested and hit that follow button for more card decent deals just like this one here so in order to get a free obligation quote this is what you need to do click the link in the Instagram or tick to buy a second link on the link tree there it is Q6 e-tron force road nearly 400 miles with electric range at around 400 break as well you can see it's an 80 month lease currently but you can't have it as two years for 500 pound a month you can change your mileage as well so 6 or 8000 miles you're looking at about 20 pound a month extra just fill in the contact details and press get my quote for more information on the deal
+
+---
+
+## @the.car.market — 7705403950115097878
+https://www.tiktok.com/@the.car.market/video/7705403950115097878 · 2026-11-08 07:31 UTC · via whisper
+
+Wow, one deal that says from Audi, brand new S3 black edition, usually 45,000 pound new over 300 day break. You've got things like heat seats, adaptive cruise control, and bucket seats as well. Before we get into it, make sure to share this video to anyone interested and hit that follow button for more kind eastern deals just like this one here. In order to get some more information on the deal, this is what you need to do. You can click the link at the end to grab all tips or why, currently the top link on the link S3 black edition saloon or one of the most popular models is the Golf R and this is essentially the equivalent. So you've got things like the performance pack as standard, so it's two year lease, two months of repayment, mileage rise, you can get it with 10,000 miles for under 400 a month as well. You're looking at around 4.5K down, just fill in the content details and press get my code for more information, but be quick.
+
+---
+
+## @the.car.market — 7705443305017855254
+https://www.tiktok.com/@the.car.market/video/7705443305017855254 · 2026-11-08 07:31 UTC · via whisper
+
+There are some absolutely crazy easing deals out there in the minute, here are three of the best deals with a zero pound deposit for just $250 a month. Starting off, we've got the SEA at a road at F4, this includes warranty, road tax on a 76 plate and it's $250 a month with zero down 8 or $10,000, you can still get it for around $265, spec wise it's the F4, it's the DSG, you've got reverse parking aid, adaptive cruise control, Apple CarPlay, new interior as well, that's a great option. In terms of other cars, we've got things like the lead mode to B10, family size SUV V, hybrid, 50 miles of electric range, best of both worlds and great economy, spec wise it's got things like a heated cooled seats, sunroof, you've got the adaptive cruise control, you've got things like 360 camera, a heated steering wheel as well, sunroof, absolutely massive spec that one, 250 line with zero pound deposit, again a great deal. In terms of how to access all of the deals linked in the Instagram or tips on why, you can scroll through all the options I've told you about so go and check them out and finally we've got the Cooper of how, tuned the miles of electric range, great interior and that again around 250 or 262 or 270 with 8 or 10,000 miles, a great value option, any issues or questions, let me know.
+
+---
+
+## @the.car.market — 7705496750781484310
+https://www.tiktok.com/@the.car.market/video/7705496750781484310 · 2026-11-08 07:31 UTC · via whisper
+
+Wow what a car these are brand new top specs take one black edition usually around 50,000 pound do it's now just 279 a month on the personal lease including warranty road tax on a brand new sim 6 plate insane spec heated massage seats heated saying well ambient lighting you've even got things like matrix LED headlights as well before we get into it make sure to share this video till you're interested and hit that follow button for more car decent deals just like this one here here's how to get some more information on the deal since it's a two-year lease around about 3.4K down here's how to inquire all you need to do to get a free normal location quote clear the link the Instagram or TikTok bio scroll down and it's under the best family SUV lease deals there it is take one black edition by far one of the most popular SUV lease deals as you can see around 279 to eight a month two-year lease in terms of the deposit around 3.4K down mileage wise you can have it with eight all 10,000 miles for under 300 pound a month which I think is really great finding just fill in the contact details and press get my quote for more information
+
+---
+
+## @the.car.market — 7705528359555566870
+https://www.tiktok.com/@the.car.market/video/7705528359555566870 · 2026-11-08 07:30 UTC · via whisper
+
+By far one of the best SEV decent deals out there at the minute, top spec Q5 Vostrum heated cooled seats, it's got the panoramic sunroof as well. Being a sound system heads up display, this is usually around 70 to 80,000 pound new but now just 298 a month on the business list and around about 350 a month that's on the power supply list as well, including warranty, road tax on a brandy 7.6. This insane deal is looking at our song though, so be quick, share this video, turn you in interested and hit that follow button for more kind of decent deals just on this one here. So in order to get some more information on the deal, click the link in the description or tick to our bio, top link right there is the personal one, ball one is the business, do you remember to click on the right one, business X, but the personal one is ink vac, again you do need a business with around two years of accounts, an example of the business pricing just here, so it's currently on an 80-month deal where you can change it to two years for around 45 pound a month, more mileage-wise, it's going to cost you about 10 pound a month extra top 8,000 miles as well, so great value, you then fill in the contact details and press get my code for more information, any issues or questions, let me know.
+
+---
+
 ## @the.car.market — 7704965614628031766
 https://www.tiktok.com/@the.car.market/video/7704965614628031766 · 2026-11-07 07:31 UTC · via whisper
 
