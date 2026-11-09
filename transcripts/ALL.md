@@ -1,3 +1,38 @@
+## @the.car.market — 7705717362732829954
+https://www.tiktok.com/@the.car.market/video/7705717362732829954 · 2026-11-09 07:32 UTC · via whisper
+
+Wow, what a deal this is from Audi, brand new Q6 e-tron, this is the top set of 4th row, around £80,000 new, this is now available for just £360 a month, that's on the business list, and around 440 a month on a personal list, including warranty, road tax on a brand new 7.6 play. In same spec, it's got the sunroof, heat-cooled seats, the inner sound system, heads of display, matrix and LED headlights, absolutely massive spec, and as mentioned, 440 on a personal, 360 on a business list, the deal is all good and awesome, so share this video to anyone interested, and hit that follow button. So in order to get some more information on the deal, click the link in the Instagram, or tick to buy, scroll down, you'll see the past offer just there, and the business offer just there, an example of the business pricing just here, you're looking at 4.5K down on the business list, about £5.5K down on the personal offer, as you can see, I want to in the link, as an 18-month deal, in stock as well, mileage drives you can up 8 or 10,000, for around about £15 a month extra, which is great, just fill in the contact details, and press get on my code for more information on the deal.
+
+---
+
+## @the.car.market — 7705753440919571734
+https://www.tiktok.com/@the.car.market/video/7705753440919571734 · 2026-11-09 07:32 UTC · via whisper
+
+Wow, an absolutely ridiculous deal from Mercedes, brand new GLE, 400E, this is the AMG line premium around £70,000 new, sunroof, balance of sound system, 360 camera, it's now available on a business lease only for just $379 a month, including warranty, road tax on a brand new 7.6 play. Now interestingly, this is a one year deal, I do get people asking me about short-term deals, and this is one of them, 12 months off from Haven, so you're looking at around 4.5K down at $379 a month, here's how to inquire. So in order to get some more information on this deal, you clean the link at the Instagram or TikTok bio, it's currently the second link on the link tree, GLE 400E, AMG line premium, XVAT, the prices are as it's a business lease, one year deal, you do get 8000 miles year included as standard, so again around about 4.5K down and 8000 miles included, you can add up to 20K as well, metallic paint warranty, road tax included, just fill in the content details and press get my call for more information on the deal, any questions, let me know.
+
+---
+
+## @the.car.market — 7705790639719337238
+https://www.tiktok.com/@the.car.market/video/7705790639719337238 · 2026-11-09 07:31 UTC · via whisper
+
+One of the craziest business car leasing deals out there at the minute zero hard to pose in the limbo to V10 is now just 217 a month and insane hybrid SUV heated cooled seats You've got things like 360 camera the sun grip absolutely massive spec and as mentioned 217 a month on a three-year lease with zero Deposit also available with eight or 10,000 miles as well 8,000 miles is 230 a month and a 10,000 is around about 250 a great value deal You've also got relatively low benefit and kind tax as well around 50 pound a month There is also an electric option as well, which hasn't even lower them benefit in kind But slightly higher on the monthly payments in terms of how to access the deal clean the link in the Instagram all tips I'll buy you can scroll down and you'll see it the lead mode to be 10 deal with zero pound deposit three years as mentioned You can add your mileage And also if you want to pay deposit you can and that will reduce the month it is once you've done that You just press get one coat and fill in your contact details for more of the major on this deal
+
+---
+
+## @the.car.market — 7705833493992934678
+https://www.tiktok.com/@the.car.market/video/7705833493992934678 · 2026-11-09 07:31 UTC · via whisper
+
+Part deal this is from BYD, the brand new CLI-7 is now available with no deposit on a pastel lease for just £395 a month that includes warranty and road tax on a brand new 7-6 play. Streck-wise you've got around 350 miles of electric range, heated seats, adaptive cruise control as well before we get into the video make sure to share this video to anyone interested and hit that like button, so it's on a 4-year lease with no deposit, $395 a month, here's how to get some more information on the deal. But order to get some more information, click the link in the Instagram or TikTok bio, scroll down and you'll see a second link on the link tree, CLI-7, no deposit, once you're on the link you can press the edit lease within in the bottom left, change things like the lease term, the upper payment and the mileage, so $395 a month, in stock, 4-year lease, deposit you can change, mileage as well, you can have $8000 or $10,000 all you used to be then is press get my quote as you can see right there, and then fill in your contact details for a free obligation quote, any issues or questions, let me know.
+
+---
+
+## @the.car.market — 7705865165949979926
+https://www.tiktok.com/@the.car.market/video/7705865165949979926 · 2026-11-09 07:30 UTC · via whisper
+
+There are currently some absolutely insane performance car leasing deals, so the best I've seen all year, here's five of the best deals currently available. Starting off, we've got the BMW M4 G82, this deal is not going to last long, but $550 a month for a hundred thousand pound new, brand new M4 is a great offer, that's with around 6.5K down, a limited time early offer, four year lease, six thousand miles a year, you can have eight or ten thousand for around five, seventy five, eighty a month as well. If you're interested in that deal or any of the deals, I'm talking about in this video, click the link, the Instagram or Tiktok bar, you can scroll all the way down, it's under the best performance car leasing deals, you can swipe through all the options, I'm talking about in this video, but be quick, share this video, take your interest in and hit our follow-up on, these deals do not last very long. In terms of other options, I really like the 2.98 a month, again, cheapest I've ever seen it, 3.5K down on a two year lease, and with 10,000 miles, that's 316 a month, really really great value, great daily water car. Other options, things like the GTI, that's around 270 a month, and also the M2 and RS3, those are both around 500 pound a month, with the 6,000 pound down, I do like the M2 a little bit more, a great option, especially with the rear wheel drive option on that car as well. Any issues or questions, let me know, for some great deals, I thought I'd share it in this video.
+
+---
+
 ## @the.car.market — 7704787820170317078
 https://www.tiktok.com/@the.car.market/video/7704787820170317078 · 2026-11-08 07:33 UTC · via whisper
 
