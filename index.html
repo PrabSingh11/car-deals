@@ -46,12 +46,12 @@
 <body>
 <header>
   <h1>🚗 Car Deals</h1>
-  <div class="sub">15 deals · updated 09 Nov 2026, 07:47 UTC</div>
+  <div class="sub">20 deals · updated 10 Nov 2026, 07:45 UTC</div>
 </header>
 <div class="wrap">
   <div class="controls">
     <input type="search" id="q" placeholder="Search model, type, spec…">
-    <select id="brand"><option value="">All brands</option><option value="Audi">Audi</option><option value="BMW">BMW</option><option value="BYD">BYD</option><option value="Mercedes">Mercedes</option><option value="Volkswagen">Volkswagen</option></select>
+    <select id="brand"><option value="">All brands</option><option value="Audi">Audi</option><option value="BMW">BMW</option><option value="BYD">BYD</option><option value="Mercedes">Mercedes</option><option value="Seat">Seat</option><option value="Volkswagen">Volkswagen</option></select>
   </div>
   <div class="tablewrap">
   <table id="t">
@@ -60,15 +60,28 @@
       <th>Term</th><th>Spec</th><th>Available</th><th>Video</th><th>Transcript</th>
     </tr></thead>
     <tbody>
+      <tr data-brand="BYD">
+        <td data-label="Brand">BYD</td>
+        <td data-label="Model">C9-7</td>
+        <td data-label="Type">SUV</td>
+        <td data-label="New price" class="num">£50,000</td>
+        <td data-label="Monthly" class="num hero">£275</td>
+        <td data-label="Deposit" class="num">—</td>
+        <td data-label="Term">—</td>
+        <td data-label="Spec" class="spec">Fully electric, heated seats, adaptive cruise control, Apple CarPlay</td>
+        <td data-label="Available">2026-11-10</td>
+        <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7706096271013973270" target="_blank" rel="noopener">watch</a></td>
+        <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7706096271013973270.txt" target="_blank" rel="noopener">transcript</a></td>
+      </tr>
       <tr data-brand="Audi">
         <td data-label="Brand">Audi</td>
         <td data-label="Model">Q6 e-tron</td>
-        <td data-label="Type">SUV</td>
+        <td data-label="Type">—</td>
         <td data-label="New price" class="num">£80,000</td>
         <td data-label="Monthly" class="num hero">£440</td>
         <td data-label="Deposit" class="num">£5,500</td>
         <td data-label="Term">18 mo</td>
-        <td data-label="Spec" class="spec">Sunroof, heat-cooled seats, premium sound system, head-up display, matrix LED headlights</td>
+        <td data-label="Spec" class="spec">Sunroof, heated/cooled seats, premium sound system, matrix LED headlights</td>
         <td data-label="Available">2026-11-09</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705717362732829954" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705717362732829954.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -81,7 +94,7 @@
         <td data-label="Monthly" class="num hero">£379</td>
         <td data-label="Deposit" class="num">£4,500</td>
         <td data-label="Term">12 mo</td>
-        <td data-label="Spec" class="spec">Sunroof, 360 camera, premium sound system, metallic paint</td>
+        <td data-label="Spec" class="spec">Sunroof, sound system, 360 camera</td>
         <td data-label="Available">2026-11-09</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705753440919571734" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705753440919571734.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -94,7 +107,7 @@
         <td data-label="Monthly" class="num hero">£395</td>
         <td data-label="Deposit" class="num">£0</td>
         <td data-label="Term">48 mo</td>
-        <td data-label="Spec" class="spec">350 miles electric range, heated seats, adaptive cruise control</td>
+        <td data-label="Spec" class="spec">350 miles electric range, heated seats, adaptive cruise control, warranty and road tax included</td>
         <td data-label="Available">2026-11-09</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705833493992934678" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705833493992934678.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -102,12 +115,12 @@
       <tr data-brand="BMW">
         <td data-label="Brand">BMW</td>
         <td data-label="Model">M4 G82</td>
-        <td data-label="Type">—</td>
+        <td data-label="Type">coupe</td>
         <td data-label="New price" class="num">£100,000</td>
         <td data-label="Monthly" class="num hero">£550</td>
         <td data-label="Deposit" class="num">£6,500</td>
         <td data-label="Term">48 mo</td>
-        <td data-label="Spec" class="spec">Flexible mileage options: 6,000-10,000 miles per year</td>
+        <td data-label="Spec" class="spec">High-performance sports car</td>
         <td data-label="Available">2026-11-09</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705865165949979926" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705865165949979926.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -115,28 +128,41 @@
       <tr data-brand="Mercedes">
         <td data-label="Brand">Mercedes</td>
         <td data-label="Model">E-Class Over-Edition</td>
-        <td data-label="Type">—</td>
+        <td data-label="Type">saloon</td>
         <td data-label="New price" class="num">£60,000</td>
         <td data-label="Monthly" class="num hero">£260</td>
         <td data-label="Deposit" class="num">—</td>
         <td data-label="Term">24 mo</td>
-        <td data-label="Spec" class="spec">Warranty and road tax included</td>
+        <td data-label="Spec" class="spec">Warranty and road tax included, 76 plate</td>
         <td data-label="Available">2026-11-08</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704787820170317078" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704787820170317078.txt" target="_blank" rel="noopener">transcript</a></td>
       </tr>
       <tr data-brand="Audi">
         <td data-label="Brand">Audi</td>
-        <td data-label="Model">Q6 e-tron</td>
-        <td data-label="Type">SUV</td>
+        <td data-label="Model">Q6 e-tron Force Road</td>
+        <td data-label="Type">—</td>
         <td data-label="New price" class="num">£70,000</td>
         <td data-label="Monthly" class="num hero">£440</td>
         <td data-label="Deposit" class="num">—</td>
         <td data-label="Term">80 mo</td>
-        <td data-label="Spec" class="spec">Top spec with heated/cool seats, sound system, heads-up display, sunroof, approximately 400 miles electric range</td>
+        <td data-label="Spec" class="spec">Heated/cooled seats, premium sound system, heads-up display, sunroof, 400-mile electric range</td>
         <td data-label="Available">2026-11-08</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705361044268387606" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705361044268387606.txt" target="_blank" rel="noopener">transcript</a></td>
+      </tr>
+      <tr data-brand="Audi">
+        <td data-label="Brand">Audi</td>
+        <td data-label="Model">S3 black edition</td>
+        <td data-label="Type">saloon</td>
+        <td data-label="New price" class="num">£45,000</td>
+        <td data-label="Monthly" class="num hero">£400</td>
+        <td data-label="Deposit" class="num">£4,500</td>
+        <td data-label="Term">24 mo</td>
+        <td data-label="Spec" class="spec">Heat seats, adaptive cruise control, performance pack as standard</td>
+        <td data-label="Available">2026-11-08</td>
+        <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705403950115097878" target="_blank" rel="noopener">watch</a></td>
+        <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705403950115097878.txt" target="_blank" rel="noopener">transcript</a></td>
       </tr>
       <tr data-brand="Audi">
         <td data-label="Brand">Audi</td>
@@ -146,7 +172,7 @@
         <td data-label="Monthly" class="num hero">£298</td>
         <td data-label="Deposit" class="num">—</td>
         <td data-label="Term">80 mo</td>
-        <td data-label="Spec" class="spec">Heated/cooled seats, panoramic sunroof, sound system, heads-up display</td>
+        <td data-label="Spec" class="spec">Top spec: heated cooled seats, panoramic sunroof, sound system, heads up display</td>
         <td data-label="Available">2026-11-08</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705528359555566870" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705528359555566870.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -164,6 +190,32 @@
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704965614628031766" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704965614628031766.txt" target="_blank" rel="noopener">transcript</a></td>
       </tr>
+      <tr data-brand="Seat">
+        <td data-label="Brand">Seat</td>
+        <td data-label="Model">Arona TopSpec FR</td>
+        <td data-label="Type">SUV</td>
+        <td data-label="New price" class="num">£30,000</td>
+        <td data-label="Monthly" class="num hero">£160</td>
+        <td data-label="Deposit" class="num">£2,000</td>
+        <td data-label="Term">24 mo</td>
+        <td data-label="Spec" class="spec">DSG gearbox, Adaptive Cruise Control, Apple Carplay, reverse parking aid</td>
+        <td data-label="Available">2026-11-07</td>
+        <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705095610650709270" target="_blank" rel="noopener">watch</a></td>
+        <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705095610650709270.txt" target="_blank" rel="noopener">transcript</a></td>
+      </tr>
+      <tr data-brand="Volkswagen">
+        <td data-label="Brand">Volkswagen</td>
+        <td data-label="Model">Golf GTI</td>
+        <td data-label="Type">hatchback</td>
+        <td data-label="New price" class="num">£45,000</td>
+        <td data-label="Monthly" class="num hero">£258</td>
+        <td data-label="Deposit" class="num">£3,200</td>
+        <td data-label="Term">24 mo</td>
+        <td data-label="Spec" class="spec">Warranty and road tax included, brand new 7.6 plate</td>
+        <td data-label="Available">2026-11-07</td>
+        <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7705118150857297154" target="_blank" rel="noopener">watch</a></td>
+        <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7705118150857297154.txt" target="_blank" rel="noopener">transcript</a></td>
+      </tr>
       <tr data-brand="BMW">
         <td data-label="Brand">BMW</td>
         <td data-label="Model">220i M Sport Coupe</td>
@@ -172,7 +224,7 @@
         <td data-label="Monthly" class="num hero">£270</td>
         <td data-label="Deposit" class="num">£3,200</td>
         <td data-label="Term">48 mo</td>
-        <td data-label="Spec" class="spec">Heated seats, adaptive cruise control, iDrive 8, M Sport trim</td>
+        <td data-label="Spec" class="spec">iDrive 8, adaptive cruise control, heated seats, M Sport trim</td>
         <td data-label="Available">2026-11-05</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704027231147789590" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704027231147789590.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -180,32 +232,32 @@
       <tr data-brand="Mercedes">
         <td data-label="Brand">Mercedes</td>
         <td data-label="Model">V-Class AMG line premium</td>
-        <td data-label="Type">—</td>
+        <td data-label="Type">minivan</td>
         <td data-label="New price" class="num">£70,000</td>
         <td data-label="Monthly" class="num hero">£399</td>
-        <td data-label="Deposit" class="num">£4,700</td>
+        <td data-label="Deposit" class="num">£4,000</td>
         <td data-label="Term">—</td>
-        <td data-label="Spec" class="spec">New 7.6 plate, warranty and road tax included</td>
+        <td data-label="Spec" class="spec">7.6 plate, includes warranty & road tax, 10,000 annual mileage</td>
         <td data-label="Available">2026-11-05</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704058320516058390" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704058320516058390.txt" target="_blank" rel="noopener">transcript</a></td>
       </tr>
       <tr data-brand="Audi">
         <td data-label="Brand">Audi</td>
-        <td data-label="Model">Q6 e-tron quattro Pro</td>
-        <td data-label="Type">sportback</td>
+        <td data-label="Model">Q6 e-tron Sportback Pro</td>
+        <td data-label="Type">saloon</td>
         <td data-label="New price" class="num">—</td>
         <td data-label="Monthly" class="num hero">£420</td>
         <td data-label="Deposit" class="num">—</td>
         <td data-label="Term">18 mo</td>
-        <td data-label="Spec" class="spec">400-mile electric range, heated and cooled seats, premium sound system, head-up display, sunroof</td>
+        <td data-label="Spec" class="spec">400-mile electric range, heated/cooled seats, heads-up display, premium audio, sunroof</td>
         <td data-label="Available">2026-11-05</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704256245133298966" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704256245133298966.txt" target="_blank" rel="noopener">transcript</a></td>
       </tr>
       <tr data-brand="Volkswagen">
         <td data-label="Brand">Volkswagen</td>
-        <td data-label="Model">Tera Rline</td>
+        <td data-label="Model">Tera on Rline</td>
         <td data-label="Type">SUV</td>
         <td data-label="New price" class="num">—</td>
         <td data-label="Monthly" class="num hero">£279</td>
@@ -218,13 +270,26 @@
       </tr>
       <tr data-brand="BMW">
         <td data-label="Brand">BMW</td>
-        <td data-label="Model">120i M Sport</td>
-        <td data-label="Type">hatchback</td>
+        <td data-label="Model">M5</td>
+        <td data-label="Type">saloon</td>
+        <td data-label="New price" class="num">£120,000</td>
+        <td data-label="Monthly" class="num hero">£505</td>
+        <td data-label="Deposit" class="num">£7,000</td>
+        <td data-label="Term">36 mo</td>
+        <td data-label="Spec" class="spec">Heated seats, premium sound system, warranty and road tax included</td>
+        <td data-label="Available">2026-11-05</td>
+        <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704390493605481750" target="_blank" rel="noopener">watch</a></td>
+        <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704390493605481750.txt" target="_blank" rel="noopener">transcript</a></td>
+      </tr>
+      <tr data-brand="BMW">
+        <td data-label="Brand">BMW</td>
+        <td data-label="Model">120i mspo</td>
+        <td data-label="Type">—</td>
         <td data-label="New price" class="num">—</td>
         <td data-label="Monthly" class="num hero">£330</td>
         <td data-label="Deposit" class="num">—</td>
         <td data-label="Term">48 mo</td>
-        <td data-label="Spec" class="spec">M Sport, 8,000 miles per year</td>
+        <td data-label="Spec" class="spec">8,000 miles a year</td>
         <td data-label="Available">2026-11-05</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704602510752812310" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704602510752812310.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -235,9 +300,9 @@
         <td data-label="Type">—</td>
         <td data-label="New price" class="num">£50,000</td>
         <td data-label="Monthly" class="num hero">£330</td>
-        <td data-label="Deposit" class="num">£3,500</td>
+        <td data-label="Deposit" class="num">£3,700</td>
         <td data-label="Term">—</td>
-        <td data-label="Spec" class="spec">Heated/cooled seats, head-up display, 0-60 in 3.5s</td>
+        <td data-label="Spec" class="spec">Heated/cooled seats, head-up display, 0-60 in 3.5s, 500+ brake</td>
         <td data-label="Available">2026-11-05</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704655058251713814" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704655058251713814.txt" target="_blank" rel="noopener">transcript</a></td>
@@ -250,7 +315,7 @@
         <td data-label="Monthly" class="num hero">£250</td>
         <td data-label="Deposit" class="num">£3,000</td>
         <td data-label="Term">24 mo</td>
-        <td data-label="Spec" class="spec">Tech pack standard: Sono speakers, matrix LED headlights, heads-up display, heated seats, reverse camera, adaptive cruise control</td>
+        <td data-label="Spec" class="spec">Matrix LED headlights, Sono speaker system, heads-up display, heated seats, tech pack</td>
         <td data-label="Available">2026-11-05</td>
         <td data-label="Video"><a href="https://www.tiktok.com/@the.car.market/video/7704711932330216726" target="_blank" rel="noopener">watch</a></td>
         <td data-label="Transcript"><a class="btn" href="transcripts/the.car.market/7704711932330216726.txt" target="_blank" rel="noopener">transcript</a></td>
